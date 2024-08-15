@@ -12,5 +12,11 @@
         "content": "add a video game themed background image",
         "timestamp": "15082024192417",
         "message_id": "guest15082024192417"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "\"Got it, I'll add a background image with video game theme.\"",
+        "timestamp": "15082024192418",
+        "message_id": "guest15082024192417"
     }
 ]
