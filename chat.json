@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the toilet paper background to be more realistic or cartoonish in style?\", \"option1\": \"Realistic with high detail\", \"option2\": \"Cartoonish and playful\"}, {\"question 2\": \"Should the toilet paper background be a repeating pattern or a single large image?\", \"option1\": \"Repeating pattern\", \"option2\": \"Single large image\"}], \"input_token_count\": 311, \"output_token_count\": 92, \"time_taken\": \"0:00:02.531122\"}",
+        "message_id": "guest15082024192607",
+        "timestamp": "15082024192610",
+        "component_file_name": "purple_background_cta_component_1723749784",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I will add a background image with toilet paper.",
         "message_id": "guest15082024192607",
