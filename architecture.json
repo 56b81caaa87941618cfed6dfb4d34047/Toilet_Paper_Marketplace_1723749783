@@ -10,5 +10,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\n\nUser: add a video game themed background image\nAI: \"Got it, I'll add a background image with video game theme.\"\nThis is the user's current request of changes to be made: Add a background image with toilet paper in it"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: add a video game themed background image\nAI: \"Got it, I'll add a background image with video game theme.\"\nThis is the user's current request of changes to be made: Add a background image with toilet paper in it"
     }
 ]
