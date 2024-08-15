@@ -5,7 +5,7 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 Vue.component("purple_background_cta_component_1723749784", {
     template: `
     <section id="cta-section-container">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white bg-[url('https://images.unsplash.com/photo-1584556812952-905ffd0c611a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center bg-no-repeat">
+        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-gray-900 bg-[url('https://images.unsplash.com/photo-1584556812952-905ffd0c611a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center bg-no-repeat">
             <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
@@ -22,10 +22,10 @@ Vue.component("purple_background_cta_component_1723749784", {
                 </div>
                 <!-- Content -->
                 <div id="content" class="max-w-3xl mx-auto text-center">
-                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Flush-worthy Deals, Every Day</div></div>
-                    <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Roll into Savings: Your TP Marketplace</h2></div>
-                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Discover the ultimate destination for all your toilet paper needs. From ultra-soft to eco-friendly options, we've got your bottom line covered.</p></div>
-                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
+                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium text-purple-300 pb-3" :class="[contentSubtitleStyle]">Flush-worthy Deals, Every Day</div></div>
+                    <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 text-white pb-4" :class="[contentCtaTitleStyle]"> Roll into Savings: Your TP Marketplace</h2></div>
+                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-gray-300" :class="[contentBodyStyle]">Discover the ultimate destination for all your toilet paper needs. From ultra-soft to eco-friendly options, we've got your bottom line covered.</p></div>
+                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
                 </div>
             </div>
         </div>
