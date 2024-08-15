@@ -36,5 +36,11 @@
         "content": "Add a background image with toilet paper in it",
         "timestamp": "15082024192607",
         "message_id": "guest15082024192607"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, I will add a background image with toilet paper.",
+        "timestamp": "15082024192607",
+        "message_id": "guest15082024192607"
     }
 ]
