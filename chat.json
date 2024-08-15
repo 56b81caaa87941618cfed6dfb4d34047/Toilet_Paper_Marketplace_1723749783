@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific video game theme in mind for the background, or would you prefer a general video game aesthetic?\", \"option1\": \"I have a specific video game theme in mind.\", \"option2\": \"I prefer a general video game aesthetic.\"}, {\"question 2\": \"Should the background image be static or dynamic (animated) to enhance user engagement?\", \"option1\": \"Static background image.\", \"option2\": \"Dynamic (animated) background image.\"}], \"input_token_count\": 257, \"output_token_count\": 109, \"time_taken\": \"0:00:03.076806\"}",
+        "message_id": "guest15082024192417",
+        "timestamp": "15082024192421",
+        "component_file_name": "purple_header_component_1723749784",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "\"Got it, I'll add a background image with video game theme.\"",
         "message_id": "guest15082024192417",
